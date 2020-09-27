@@ -1,4 +1,4 @@
-//ÀûÓÃnew´´½¨¶ÑÇøÊı×Ö¸úÊı×é
+//åˆ©ç”¨newåˆ›å»ºå †åŒºæ•°å­—è·Ÿæ•°ç»„
 /*#include<iostream>
 #include<string>
 using namespace std;
@@ -33,7 +33,7 @@ int main()
 	return 0;
 }
 
-//ÒıÓÃµÄ»ù±¾Ê¹ÓÃ
+//å¼•ç”¨çš„åŸºæœ¬ä½¿ç”¨
 
 #include<iostream>
 #include<string>
@@ -50,7 +50,7 @@ int main()
 
 
 
-//ÒıÓÃÔÚº¯ÊıµÄ²ÎÊı´«µİÖĞµÄÔËÓÃ
+//å¼•ç”¨åœ¨å‡½æ•°çš„å‚æ•°ä¼ é€’ä¸­çš„è¿ç”¨
 
 #include<iostream>
 #include<string>
