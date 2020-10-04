@@ -54,15 +54,15 @@ void IsR(Circel &c,Point &p)
 	int rdistance = c.PrintCircel();
 	if (distance == rdistance)
 	{
-		cout << "在圆上" << endl;
+		cout << "鐐瑰湪鍦嗕笂" << endl;
 	}
 	else if (distance<rdistance)
 	{
-		cout << "在圆内" << endl;
+		cout << "鐐瑰湪鍦嗗唴" << endl;
 	}
 	else
 	{
-		cout << "在圆外" << endl;
+		cout << "鐐瑰湪鍦嗗" << endl;
 	}
 }
 int main()
