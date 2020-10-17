@@ -1,5 +1,5 @@
 //利用new创建堆区数字跟数组
-/*#include<iostream>
+#include<iostream>
 #include<string>
 using namespace std;
 int *func()
