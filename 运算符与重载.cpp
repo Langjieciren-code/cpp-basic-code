@@ -1,7 +1,7 @@
-//¼Ó·¨ÔËËã
+//åŠ æ³•è¿ç®—
 
 
-/*#include<iostream>
+#include<iostream>
 #include<string>
 using namespace std;
 class Person
@@ -34,9 +34,9 @@ int main()
 {
 	test();
 }
-*/
-/*
-//È«¾Öº¯Êı¼Ó·¨ÔËËã
+
+
+//å…¨å±€å‡½æ•°åŠ æ³•è¿ç®—
 #include<iostream>
 #include<string>
 using namespace	std;
@@ -73,7 +73,7 @@ int main()
 	return 0;
 }
 
-//×óÒÆÔËËã
+//å·¦ç§»è¿ç®—
 #include<iostream>
 using namespace std;
 class Person
@@ -102,7 +102,7 @@ int main()
 }
 
 
-// ++ÔËËãµÄÊµÏÖ
+// ++è¿ç®—çš„å®ç°
 #include<iostream>
 #include<string>
 using namespace std;
@@ -139,7 +139,7 @@ int main()
 
 
 
-//Ç°ÖÃµİ¼õ²Ù×÷
+//å‰ç½®é€’å‡æ“ä½œ
 #include<iostream>
 #include<string>
 using namespace std;
@@ -215,7 +215,7 @@ int main()
 }
 
 
-//¸³ÖµÔËËã·ûµÄÖØÔØ
+//èµ‹å€¼è¿ç®—ç¬¦çš„é‡è½½
 
 #include<iostream>
 #include<string>
@@ -264,7 +264,7 @@ int main()
 
 
 
-//ÖØÔØ·ûºÅµÄ¹ØÏµÔËËã·û
+//é‡è½½ç¬¦å·çš„å…³ç³»è¿ç®—ç¬¦
 #include<iostream>
 #include<string>
 using namespace std;
@@ -307,7 +307,7 @@ int main()
 
 
 
-//·Âº¯Êı
+//ä»¿å‡½æ•°
 #include<iostream>
 #include<string>
 using namespace std;
