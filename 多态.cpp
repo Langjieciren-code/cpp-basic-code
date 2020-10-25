@@ -1,5 +1,5 @@
-//¶¯Ì¬¶àÌ¬µÄ»ù±¾ÓÃ·¨
-/*
+//åŠ¨æ€å¤šæ€çš„åŸºæœ¬ç”¨æ³•
+
 
 #include<iostream>
 #include<string>
@@ -9,7 +9,7 @@ class Animal
 public:
 	virtual void Speak()
 	{
-		cout << "¶¯Îïº¯Êıµ÷ÓÃ" << endl;
+		cout << "åŠ¨ç‰©å‡½æ•°è°ƒç”¨" << endl;
 	}
 };
 class Cat :public Animal
@@ -17,7 +17,7 @@ class Cat :public Animal
 public:
 	void Speak()
 	{
-		cout << "µ÷ÓÃÃ¨µÄº¯Êı" << endl;
+		cout << "è°ƒç”¨çŒ«çš„å‡½æ•°" << endl;
 	}
 };
 void DoSpeak(Animal&animal)
@@ -40,8 +40,8 @@ int main()
 
 
 
-//¶àÌ¬°¸ÀıÊµÏÖ-¼ÆËãÆ÷
-//´«Í³µÄ·½·¨ÊµÏÖ
+//å¤šæ€æ¡ˆä¾‹å®ç°-è®¡ç®—å™¨
+//ä¼ ç»Ÿçš„æ–¹æ³•å®ç°
 
 #include<iostream>
 #include<string>
@@ -86,7 +86,7 @@ int main()
 }
 
 
-//ÓÃ¶àÌ¬µÄ·½·¨ÊµÏÖ
+//ç”¨å¤šæ€çš„æ–¹æ³•å®ç°
 #include<iostream>
 #include<string>
 using namespace std;
@@ -143,7 +143,7 @@ int main()
 }
 
 
-//³éÏóÀà
+//æŠ½è±¡ç±»
 #include<iostream>
 #include<string>
 using namespace std;
@@ -173,7 +173,7 @@ int main()
 }
 
 
-//¶àÌ¬µÄ°¸Àı-ÒûÆ·»ú
+//å¤šæ€çš„æ¡ˆä¾‹-é¥®å“æœº
 #include<iostream>
 #include<string>
 using namespace std;
@@ -197,19 +197,19 @@ class Tea :public Base
 public:
 	virtual void Water()
 	{
-		cout << "¼ÓÈëÅ©·òÉ½Èª" << endl;
+		cout << "åŠ å…¥å†œå¤«å±±æ³‰" << endl;
 	}
 	virtual void Puthot()
 	{
-		cout << "¼ÓÈÈ" << endl;
+		cout << "åŠ çƒ­" << endl;
 	}
 	virtual void Putthing()
 	{
-		cout << "¼ÓÈëèÛè½ºÍ²èÒ¶" << endl;
+		cout << "åŠ å…¥æ¸æå’ŒèŒ¶å¶" << endl;
 	}
 	virtual void Finish()
 	{
-		cout << "Íê³É²èµÄÖÆ×÷" << endl;
+		cout << "å®ŒæˆèŒ¶çš„åˆ¶ä½œ" << endl;
 	}
 };
 class Coffe :public Base
@@ -217,19 +217,19 @@ class Coffe :public Base
 public:
 	virtual void Water()
 	{
-		cout << "¼ÓÈë¿óÈªË®" << endl;
+		cout << "åŠ å…¥çŸ¿æ³‰æ°´" << endl;
 	}
 	virtual void Puthot()
 	{
-		cout << "¼ÓÈÈ" << endl;
+		cout << "åŠ çƒ­" << endl;
 	}
 	virtual void Putthing()
 	{
-		cout << "¼ÓÈë¿§·ÈÒòºÍÌÇÀà" << endl;
+		cout << "åŠ å…¥å’–å•¡å› å’Œç³–ç±»" << endl;
 	}
 	virtual void Finish()
 	{
-		cout << "Íê³É¿§·ÈµÄÖÆ×÷" << endl;
+		cout << "å®Œæˆå’–å•¡çš„åˆ¶ä½œ" << endl;
 	}
 };
 void Result(Base *b)
@@ -301,7 +301,7 @@ int main()
 }
 
 
-//¶àÌ¬°¸ÁĞ - µçÄÔ×é×°
+//å¤šæ€æ¡ˆåˆ— - ç”µè„‘ç»„è£…
 #include<iostream>
 #include<string>
 using namespace std;
@@ -441,4 +441,3 @@ int main()
 	test();
 	return 0;
 }
-*/
