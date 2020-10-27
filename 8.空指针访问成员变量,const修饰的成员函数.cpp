@@ -1,6 +1,6 @@
-//¿ÕÖ¸Õë·ÃÎÊ³ÉÔ±±äÁ¿
+//ç©ºæŒ‡é’ˆè®¿é—®æˆå‘˜å˜é‡
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 class Person
 {
@@ -28,12 +28,11 @@ void test()
 int main()
 {
 	test();
-} */
+} 
 
 
-/*
 
-//constĞŞÊÎµÄ³ÉÔ±º¯Êı
+//constä¿®é¥°çš„æˆå‘˜å‡½æ•°
 #include<iostream>
 #include<string>	
 using namespace std;
@@ -56,4 +55,3 @@ int main()
 {
 	test();
 }
-*/
