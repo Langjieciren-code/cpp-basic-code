@@ -1,5 +1,4 @@
-//ÀàÓë¶ÔÏó
-/*
+//ç±»ä¸å¯¹è±¡
 #include<iostream>
 #include<string>
 using namespace std;
@@ -48,7 +47,7 @@ int main()
 }
 
 
-//½«³ÉÔ±µÄÊôĞÔË½ÓĞ»¯
+//å°†æˆå‘˜çš„å±æ€§ç§æœ‰åŒ–
 #include<iostream>
 #include<string>
 using namespace std;
@@ -65,7 +64,7 @@ public:
 	}
 
 private:
-	//Ë½ÓĞ³ÉÔ±Ö»ÄÜÔÚÀàÀï·ÃÎÊ
+	//ç§æœ‰æˆå‘˜åªèƒ½åœ¨ç±»é‡Œè®¿é—®
 	string m_name;
 	int m_age;
 	string m_Gfriend;
@@ -77,7 +76,7 @@ int main()
 	p1.PutName();
 	return 0;
 }
-*/
+
 
 
 #include<iostream>
