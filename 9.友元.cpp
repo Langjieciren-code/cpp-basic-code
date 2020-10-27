@@ -1,5 +1,5 @@
-//È«¾Öº¯Êı×öÓÑÔª
-/*
+//å…¨å±€å‡½æ•°åšå‹å…ƒ
+
 #include<iostream>
 #include<string>
 using namespace std;
@@ -22,7 +22,7 @@ int main()
 	test(buiding);
 }
 
-//Àà×öÓÑÔª
+//ç±»åšå‹å…ƒ
 
 #include<iostream>
 #include<string>
@@ -38,8 +38,8 @@ private:
 };
 Buiding::Buiding()
 {
-	SitRoom = "¿ÍÌü";
-	BedRoom = "ÎÔÊÒ";
+	SitRoom = "å®¢å…";
+	BedRoom = "å§å®¤";
 }
 class gay
 {
@@ -47,8 +47,8 @@ public:
 	gay();
 	void show()
 	{
-		cout << "ÕıÔÚ·ÃÎÊ:" << buiding->BedRoom << endl;
-		cout << "ÕıÔÚ·ÃÎÊ:" << buiding->SitRoom << endl;
+		cout << "æ­£åœ¨è®¿é—®:" << buiding->BedRoom << endl;
+		cout << "æ­£åœ¨è®¿é—®:" << buiding->SitRoom << endl;
 	}
 private:
 	Buiding *buiding;
@@ -67,12 +67,10 @@ int main()
 	test();
 	return 0;
 }
-*/
 
 
 
-//³ÉÔ±º¯Êı×öÓÑÔª
-/*
+//æˆå‘˜å‡½æ•°åšå‹å…ƒ
 #include<iostream>
 #include<string>
 using namespace std;
@@ -119,5 +117,5 @@ int main()
 {
 	test();
 	return 0;
-}*/
+}
 
