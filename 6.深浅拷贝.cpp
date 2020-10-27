@@ -1,25 +1,25 @@
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 class Person
 {
 public:
 	Person()
 	{
-		cout << "ÎÞ²Îº¯Êýµ÷ÓÃ" << endl;
+		cout << "æ— å‚å‡½æ•°è°ƒç”¨" << endl;
 	}
 	Person(int age,int height)
 	{
-		cout << "ÓÐ²Îº¯ÊýµÄµ÷ÓÃ" << endl;
+		cout << "æœ‰å‚å‡½æ•°çš„è°ƒç”¨" << endl;
 		m_age = age;
 		Height = new int(height);
 		
 	}
 	~Person()
 	{
-		cout << "Îö¹¹º¯ÊýµÄµ÷ÓÃ" << endl;
-		/*if (Height != 0)
+		cout << "æžæž„å‡½æ•°çš„è°ƒç”¨" << endl;
+		if (Height != 0)
 		{
-			//Ç³¿½±´»áÖÂÊ¹¶ÑÇøµÄÄÚ´æÖØ¸´ÊÍ·Å
+			//æµ…æ‹·è´ä¼šè‡´ä½¿å †åŒºçš„å†…å­˜é‡å¤é‡Šæ”¾
 			delete Height;
 			Height == NULL;
 		}
@@ -37,11 +37,11 @@ void test()
 int main()
 {
 	test();
-}*/
+}
 
 
-/*
-//Éî¿½±´
+
+//æ·±æ‹·è´
 
 #include<iostream>
 using namespace std;
@@ -50,11 +50,11 @@ class Person
 public:
 	Person()
 	{
-		cout << "ÎÞ²Îº¯Êýµ÷ÓÃ" << endl;
+		cout << "æ— å‚å‡½æ•°è°ƒç”¨" << endl;
 	}
 	Person(int age,int height)
 	{
-		cout << "ÓÐ²Îº¯ÊýµÄµ÷ÓÃ" << endl;
+		cout << "æœ‰å‚å‡½æ•°çš„è°ƒç”¨" << endl;
 		m_age = age;
 		Height = new int(height);
 
@@ -67,10 +67,10 @@ public:
 	}
 	~Person()
 	{
-		cout << "Îö¹¹º¯ÊýµÄµ÷ÓÃ" << endl;
+		cout << "æžæž„å‡½æ•°çš„è°ƒç”¨" << endl;
 		if (Height != 0)
 		{
-			//Ç³¿½±´»áÖÂÊ¹¶ÑÇøµÄÄÚ´æÖØ¸´ÊÍ·Å
+			//æµ…æ‹·è´ä¼šè‡´ä½¿å †åŒºçš„å†…å­˜é‡å¤é‡Šæ”¾
 			delete Height;
 			Height == NULL;
 		}
@@ -89,4 +89,3 @@ int main()
 {
 	test();
 }
-*/
