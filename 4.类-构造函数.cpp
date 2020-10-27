@@ -1,7 +1,7 @@
-//1.¹¹Ôìº¯Êý
+//1.æž„é€ å‡½æ•°
 
 
-/*
+
 #include<iostream>
 #include<string>
 using namespace std;
@@ -10,11 +10,11 @@ class Person
 public:
 	Person()
 	{
-		cout << "µ÷ÓÃ¹¹Ôìº¯Êý" << endl;
+		cout << "è°ƒç”¨æž„é€ å‡½æ•°" << endl;
 	}
 	~Person()
 	{
-		cout << "µ÷ÓÃÎö¹¹º¯Êý" << endl;
+		cout << "è°ƒç”¨æžæž„å‡½æ•°" << endl;
 	}
 };
 int main()
@@ -26,10 +26,10 @@ int main()
 
 
 
-// 2.¹¹Ôìº¯ÊýµÄ·ÖÀà¼°µ÷ÓÃ
+// 2.æž„é€ å‡½æ•°çš„åˆ†ç±»åŠè°ƒç”¨
 
 
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 class Persson
 {
@@ -37,21 +37,21 @@ public:
 	int age;
 	Persson()
 	{
-		cout << "ÎÞ²Î¹¹Ôìº¯Êý" << endl;
+		cout << "æ— å‚æž„é€ å‡½æ•°" << endl;
 	}
 	Persson(int a)
 	{
-		cout << "ÓÐ²Î¹¹Ôìº¯Êý" << endl;
+		cout << "æœ‰å‚æž„é€ å‡½æ•°" << endl;
 		age = a;
 	}
 	Persson(const Persson &p)
 	{
-		cout << "¿½±´¹¹Ôìº¯ÊýµÄµ÷ÓÃ" << endl;
+		cout << "æ‹·è´æž„é€ å‡½æ•°çš„è°ƒç”¨" << endl;
 		age = p.age;
 	}
 	~Persson()
 	{
-		cout << "Îö¹¹º¯ÊýµÄµ÷ÓÃ" << endl;
+		cout << "æžæž„å‡½æ•°çš„è°ƒç”¨" << endl;
 	}
 };
 void test()
@@ -75,5 +75,5 @@ int main()
 	cout << (int*)&p2 << endl;
 	system("pause");
 
-}*/
+}
 
