@@ -1,5 +1,4 @@
-//³õÊ¼»¯ÁĞ±í
-/*
+//åˆå§‹åŒ–åˆ—è¡¨
 
 #include<iostream>
 using namespace std;
@@ -27,7 +26,7 @@ int main()
 
 
 
-//Àà¶ÔÏó×÷ÎªÀàµÄ³ÉÔ±
+//ç±»å¯¹è±¡ä½œä¸ºç±»çš„æˆå‘˜
 #include<string>
 #include<iostream>
 using namespace std;
@@ -58,9 +57,8 @@ int main()
 	test();
 	return 0;
 }
-*/
 
-//¾²Ì¬³ÉÔ±
+//é™æ€æˆå‘˜
 #include<iostream>
 using namespace std;
 class Person
