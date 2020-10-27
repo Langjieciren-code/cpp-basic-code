@@ -1,4 +1,4 @@
-// Ğ´ÎÄ¼ş²Ù×÷
+// å†™æ–‡ä»¶æ“ä½œ
 #include<iostream>
 #include<fstream>
 using namespace std;
@@ -19,7 +19,7 @@ int main()
 
 
 
-//¶Á²Ù×÷
+//è¯»æ“ä½œ
 #include<iostream>
 #include<fstream>
 using namespace std;
@@ -46,7 +46,7 @@ int main()
 
 
 
-//¶ş½øÖÆµÄ·½Ê½Ğ´ÎÄ¼ş
+//äºŒè¿›åˆ¶çš„æ–¹å¼å†™æ–‡ä»¶
 #include<iostream>
 #include<fstream>
 using namespace std;
@@ -67,7 +67,7 @@ int main()
 
 
 
-//¶ş½øÖÆµÄ·½Ê½¶ÁÎÄ¼ş
+//äºŒè¿›åˆ¶çš„æ–¹å¼è¯»æ–‡ä»¶
 #include<iostream>
 #include<fstream>
 using namespace std;
@@ -81,7 +81,7 @@ int main()
 {
 	ifstream ifs;
 	Person p;
-	ifs.open("C:\Users\ÀÇĞÔÉÙÄê\source\repos\c++ pratic code\c++ pratic code\Person.txt", ios::in | ios::binary);
+	ifs.open("C:\Users\ç‹¼æ€§å°‘å¹´\source\repos\c++ pratic code\c++ pratic code\Person.txt", ios::in | ios::binary);
 	if (!ifs.is_open())
 		cout << "wrong" << endl;
 	ifs.read((char*)&p, sizeof(p));
